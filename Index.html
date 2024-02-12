@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador de Texto</title>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <body>
+        <header>
+            <img src="logo.png"class="logo">
+            <h1>¡Bienvenido al Encriptador de Texto!</h1>
+        </header>
+        
+        <div class="row">
+            <div class="column">
+                <input type="text" class="caja" placeholder="Ingresa tu texto para encriptar:">
+             </div>
+             <div class="column">
+                <form oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+                    <input type="range" id="a" value="50">
+                    +<input type="number" id="b" value="25">
+                    =<output name="x" for="a b"></output>
+                  </form>
+             </div>
+        </div>
+        <div class="botones">
+            <label class="advertencia">!texto en minuscula y sin acentos</label>
+            <button onclick="testeo();" class="encriptador">Encriptar</button>
+            <button class="desencriptador">Desencriptar</button>
+        </div>
+
+        <script src="app.js"></script>
+
+    </body>
+
+</html>
